@@ -91,11 +91,11 @@ function drawDice(c, x, y) {
     if (click == 0) {
       push();
       translate(x, y, 0);
-      if ((frameCount * -5) % 90 == 0) {
+      if ((frameCount * -1) % 90 == 0) {
         rdm[c] = imgs[ceil(random(count))];
       }
       texture(rdm[c])
-      rotateX(radians(frameCount * -5));
+      rotateX(radians(frameCount * -1));
       box(170, 170, 170);
       pop();
     }
