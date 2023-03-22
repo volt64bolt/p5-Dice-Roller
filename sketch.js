@@ -15,7 +15,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   
   click = 0;
-  count = 44; //total amount of numbers
+  count = 43; //total amount of numbers
   blacklist = [9]; //numbers you dont want
 
   imgs = [];
