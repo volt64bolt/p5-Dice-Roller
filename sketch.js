@@ -16,8 +16,8 @@ function setup() {
   
   img = loadImage('assets/dice50.jpg');
   click = 0;
-  count = 50; //total amount of numbers
-  blacklist = [25, 33, 41]; //numbers you dont want
+  count = 44; //total amount of numbers
+  blacklist = [9]; //numbers you dont want
 
   imgs = [];
   for (let i = 0; i <= count; i++) {
